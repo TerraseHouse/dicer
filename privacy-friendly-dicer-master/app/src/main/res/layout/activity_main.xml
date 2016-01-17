@@ -32,7 +32,7 @@
         android:layout_below="@+id/chooseDiceHeading"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:max="9"
+        android:max="14"
         android:progress="5"
         android:layout_marginTop="10dp" />
 
