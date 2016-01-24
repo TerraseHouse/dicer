@@ -144,7 +144,7 @@ public class MainActivity extends ActionBarActivity {
     }
 
     public void initResultDiceViews() {
-        imageViews = new ImageView[15];
+        imageViews = new ImageView[20];
 
         imageViews[0] = (ImageView) findViewById(R.id.resultOne);
         imageViews[1] = (ImageView) findViewById(R.id.resultTwo);
@@ -161,6 +161,11 @@ public class MainActivity extends ActionBarActivity {
         imageViews[12] = (ImageView) findViewById(R.id.resultThirteen);
         imageViews[13] = (ImageView) findViewById(R.id.resultFourteen);
         imageViews[14] = (ImageView) findViewById(R.id.resultFifteen);
+        imageViews[15] = (ImageView) findViewById(R.id.resultSixteen);
+        imageViews[16] = (ImageView) findViewById(R.id.resultSeventeen);
+        imageViews[17] = (ImageView) findViewById(R.id.resultEighteen);
+        imageViews[18] = (ImageView) findViewById(R.id.resultNineteen);
+        imageViews[19] = (ImageView) findViewById(R.id.resultTwenty);
 
         for (int i = 0; i < imageViews.length; i++) {
             imageViews[i].setImageResource(0);
@@ -181,8 +186,8 @@ public class MainActivity extends ActionBarActivity {
         for (int i = 0; i < dice.length; i++) {
             switchDice(imageViews[i], dice[i]);
             android.view.ViewGroup.LayoutParams layoutParams = imageViews[i].getLayoutParams();
-            layoutParams.width = display.getWidth() / 6;
-            layoutParams.height = display.getWidth() / 6;
+            layoutParams.width = display.getWidth() / 12;
+            layoutParams.height = display.getWidth() / 12;
 
             imageViews[i].setLayoutParams(layoutParams);
             totalResults = totalResults + dice[i];
