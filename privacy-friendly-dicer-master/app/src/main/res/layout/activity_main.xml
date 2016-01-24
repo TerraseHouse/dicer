@@ -52,7 +52,7 @@
         android:layout_below="@+id/chooseDiceHeading"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:max="14"
+        android:max="19"
         android:progress="5"
         android:layout_marginTop="10dp" />
 
@@ -82,7 +82,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/rollButton"
         android:layout_toRightOf="@+id/resultOne"
-        android:layout_marginLeft="6dp"
+        android:layout_marginLeft="3dp"
         android:layout_marginTop="20dp"
         android:id="@+id/resultTwo"/>
 
@@ -91,7 +91,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/rollButton"
         android:layout_toRightOf="@+id/resultTwo"
-        android:layout_marginLeft="6dp"
+        android:layout_marginLeft="3dp"
         android:layout_marginTop="20dp"
         android:id="@+id/resultThree"/>
 
@@ -100,7 +100,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/rollButton"
         android:layout_toRightOf="@+id/resultThree"
-        android:layout_marginLeft="6dp"
+        android:layout_marginLeft="3dp"
         android:layout_marginTop="20dp"
         android:id="@+id/resultFour"/>
 
@@ -109,7 +109,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/rollButton"
         android:layout_toRightOf="@+id/resultFour"
-        android:layout_marginLeft="6dp"
+        android:layout_marginLeft="3dp"
         android:layout_marginTop="20dp"
         android:id="@+id/resultFive"/>
 
@@ -118,7 +118,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/rollButton"
         android:layout_toRightOf="@+id/resultFive"
-        android:layout_marginLeft="6dp"
+        android:layout_marginLeft="3dp"
         android:layout_marginTop="20dp"
         android:id="@+id/resultSix"/>
 
@@ -128,7 +128,7 @@
         android:layout_below="@+id/rollButton"
         android:layout_toRightOf="@+id/resultSix"
         android:layout_marginTop="20dp"
-        android:layout_marginLeft="6dp"
+        android:layout_marginLeft="3dp"
         android:id="@+id/resultSeven"/>
 
     <ImageView
@@ -137,7 +137,7 @@
         android:layout_below="@+id/rollButton"
         android:layout_toRightOf="@+id/resultSeven"
         android:layout_marginTop="20dp"
-        android:layout_marginLeft="6dp"
+        android:layout_marginLeft="3dp"
         android:id="@+id/resultEight"/>
 
     <ImageView
@@ -146,7 +146,7 @@
         android:layout_below="@+id/rollButton"
         android:layout_toRightOf="@+id/resultEight"
         android:layout_marginTop="20dp"
-        android:layout_marginLeft="6dp"
+        android:layout_marginLeft="3dp"
         android:id="@+id/resultNine"/>
 
     <ImageView
@@ -155,7 +155,7 @@
         android:layout_below="@+id/rollButton"
         android:layout_toRightOf="@+id/resultNine"
         android:layout_marginTop="20dp"
-        android:layout_marginLeft="6dp"
+        android:layout_marginLeft="3dp"
         android:id="@+id/resultTen"/>
 
     <ImageView
@@ -171,7 +171,7 @@
         android:layout_below="@+id/resultOne"
         android:layout_toRightOf="@+id/resultEleven"
         android:layout_marginTop="20dp"
-        android:layout_marginLeft="6dp"
+        android:layout_marginLeft="3dp"
         android:id="@+id/resultTwelve"/>
 
     <ImageView
@@ -180,7 +180,7 @@
         android:layout_below="@+id/resultOne"
         android:layout_toRightOf="@+id/resultTwelve"
         android:layout_marginTop="20dp"
-        android:layout_marginLeft="6dp"
+        android:layout_marginLeft="3dp"
         android:id="@+id/resultThirteen"/>
 
     <ImageView
@@ -189,7 +189,7 @@
         android:layout_below="@+id/resultOne"
         android:layout_toRightOf="@+id/resultThirteen"
         android:layout_marginTop="20dp"
-        android:layout_marginLeft="6dp"
+        android:layout_marginLeft="3dp"
         android:id="@+id/resultFourteen"/>
 
     <ImageView
@@ -198,7 +198,51 @@
         android:layout_below="@+id/resultOne"
         android:layout_toRightOf="@+id/resultFourteen"
         android:layout_marginTop="20dp"
-        android:layout_marginLeft="6dp"
+        android:layout_marginLeft="3dp"
         android:id="@+id/resultFifteen"/>
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/resultOne"
+        android:layout_toRightOf="@+id/resultFifteen"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="3dp"
+        android:id="@+id/resultSixteen"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/resultOne"
+        android:layout_toRightOf="@+id/resultSixteen"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="3dp"
+        android:id="@+id/resultSeventeen"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/resultOne"
+        android:layout_toRightOf="@+id/resultSeventeen"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="3dp"
+        android:id="@+id/resultEighteen"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/resultOne"
+        android:layout_toRightOf="@+id/resultEighteen"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="3dp"
+        android:id="@+id/resultNineteen"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/resultOne"
+        android:layout_toRightOf="@+id/resultNineteen"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="3dp"
+        android:id="@+id/resultTwenty"/>
 </RelativeLayout>
