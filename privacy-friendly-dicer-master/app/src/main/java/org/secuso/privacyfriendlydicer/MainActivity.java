@@ -144,7 +144,7 @@ public class MainActivity extends ActionBarActivity {
     }
 
     public void initResultDiceViews() {
-        imageViews = new ImageView[20];
+        imageViews = new ImageView[30];
 
         imageViews[0] = (ImageView) findViewById(R.id.resultOne);
         imageViews[1] = (ImageView) findViewById(R.id.resultTwo);
@@ -166,6 +166,16 @@ public class MainActivity extends ActionBarActivity {
         imageViews[17] = (ImageView) findViewById(R.id.resultEighteen);
         imageViews[18] = (ImageView) findViewById(R.id.resultNineteen);
         imageViews[19] = (ImageView) findViewById(R.id.resultTwenty);
+        imageViews[20] = (ImageView) findViewById(R.id.resultTwenty_one);
+        imageViews[21] = (ImageView) findViewById(R.id.resultTwenty_two);
+        imageViews[22] = (ImageView) findViewById(R.id.resultTwenty_three);
+        imageViews[23] = (ImageView) findViewById(R.id.resultTwenty_four);
+        imageViews[24] = (ImageView) findViewById(R.id.resultTwenty_five);
+        imageViews[25] = (ImageView) findViewById(R.id.resultTwenty_six);
+        imageViews[26] = (ImageView) findViewById(R.id.resultTwenty_seven);
+        imageViews[27] = (ImageView) findViewById(R.id.resultTwenty_eight);
+        imageViews[28] = (ImageView) findViewById(R.id.resultTwenty_nine);
+        imageViews[29] = (ImageView) findViewById(R.id.resultThirty);
 
         for (int i = 0; i < imageViews.length; i++) {
             imageViews[i].setImageResource(0);
