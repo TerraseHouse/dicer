@@ -251,85 +251,85 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/resultEleven"
         android:layout_marginTop="20dp"
-        android:id="@+id/resultTwenty-one"/>
+        android:id="@+id/resultTwenty_one"/>
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/resultEleven"
-        android:layout_toRightOf="@+id/resultTwenty-one"
+        android:layout_toRightOf="@+id/resultTwenty_one"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="3dp"
-        android:id="@+id/resultTwenty-two"/>
+        android:id="@+id/resultTwenty_two"/>
 
     <ImageView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_below="@+id/resultEleven"
-    android:layout_toRightOf="@+id/resultTwenty-two"
+    android:layout_toRightOf="@+id/resultTwenty_two"
     android:layout_marginTop="20dp"
     android:layout_marginLeft="3dp"
-    android:id="@+id/resultTwenty-three"/>
+    android:id="@+id/resultTwenty_three"/>
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/resultEleven"
-        android:layout_toRightOf="@+id/resultTwenty-three"
+        android:layout_toRightOf="@+id/resultTwenty_three"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="3dp"
-        android:id="@+id/resultTwenty-four"/>
+        android:id="@+id/resultTwenty_four"/>
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/resultEleven"
-        android:layout_toRightOf="@+id/resultTwenty-four"
+        android:layout_toRightOf="@+id/resultTwenty_four"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="3dp"
-        android:id="@+id/resultTwenty-five"/>
+        android:id="@+id/resultTwenty_five"/>
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/resultEleven"
-        android:layout_toRightOf="@+id/resultTwenty-five"
+        android:layout_toRightOf="@+id/resultTwenty_five"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="3dp"
-        android:id="@+id/resultTwenty-six"/>
+        android:id="@+id/resultTwenty_six"/>
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/resultEleven"
-        android:layout_toRightOf="@+id/resultTwenty-six"
+        android:layout_toRightOf="@+id/resultTwenty_six"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="3dp"
-        android:id="@+id/resultTwenty-seven"/>
+        android:id="@+id/resultTwenty_seven"/>
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/resultEleven"
-        android:layout_toRightOf="@+id/resultTwenty-seven"
+        android:layout_toRightOf="@+id/resultTwenty_seven"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="3dp"
-        android:id="@+id/resultTwenty-eight"/>
+        android:id="@+id/resultTwenty_eight"/>
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/resultEleven"
-        android:layout_toRightOf="@+id/resultTwenty-eight"
+        android:layout_toRightOf="@+id/resultTwenty_eight"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="3dp"
-        android:id="@+id/resultTwenty-nine"/>
+        android:id="@+id/resultTwenty_nine"/>
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/resultEleven"
-        android:layout_toRightOf="@+id/resultTwenty-nine"
+        android:layout_toRightOf="@+id/resultTwenty_nine"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="3dp"
         android:id="@+id/resultThirty"/>
