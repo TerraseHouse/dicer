@@ -52,7 +52,7 @@
         android:layout_below="@+id/chooseDiceHeading"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:max="19"
+        android:max="29"
         android:progress="5"
         android:layout_marginTop="10dp" />
 
@@ -245,4 +245,93 @@
         android:layout_marginTop="20dp"
         android:layout_marginLeft="3dp"
         android:id="@+id/resultTwenty"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/resultEleven"
+        android:layout_marginTop="20dp"
+        android:id="@+id/resultTwenty-one"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/resultEleven"
+        android:layout_toRightOf="@+id/resultTwenty-one"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="3dp"
+        android:id="@+id/resultTwenty-two"/>
+
+    <ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/resultEleven"
+    android:layout_toRightOf="@+id/resultTwenty-two"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="3dp"
+    android:id="@+id/resultTwenty-three"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/resultEleven"
+        android:layout_toRightOf="@+id/resultTwenty-three"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="3dp"
+        android:id="@+id/resultTwenty-four"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/resultEleven"
+        android:layout_toRightOf="@+id/resultTwenty-four"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="3dp"
+        android:id="@+id/resultTwenty-five"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/resultEleven"
+        android:layout_toRightOf="@+id/resultTwenty-five"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="3dp"
+        android:id="@+id/resultTwenty-six"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/resultEleven"
+        android:layout_toRightOf="@+id/resultTwenty-six"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="3dp"
+        android:id="@+id/resultTwenty-seven"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/resultEleven"
+        android:layout_toRightOf="@+id/resultTwenty-seven"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="3dp"
+        android:id="@+id/resultTwenty-eight"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/resultEleven"
+        android:layout_toRightOf="@+id/resultTwenty-eight"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="3dp"
+        android:id="@+id/resultTwenty-nine"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/resultEleven"
+        android:layout_toRightOf="@+id/resultTwenty-nine"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="3dp"
+        android:id="@+id/resultThirty"/>
+
 </RelativeLayout>
